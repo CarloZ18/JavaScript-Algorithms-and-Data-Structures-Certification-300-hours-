@@ -6,7 +6,7 @@ function binaryAgent(str) {
     var biString = str.split(" ");
     var uniString = [];
   
-    // itero entre cada conjunto de numeros binarios y voy pasando cada uno a numero decimal, luego estos los transformo en letra con fromCharCode()
+    // itero entre cada conjunto de numeros binarios y voy pasando cada uno a numero decimal con parseInt(), luego estos los transformo en letra con fromCharCode()
     for (var i = 0; i < biString.length; i++) {
       uniString.push(String.fromCharCode(parseInt(biString[i], 2)));
     }
