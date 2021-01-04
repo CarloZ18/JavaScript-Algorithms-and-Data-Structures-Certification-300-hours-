@@ -5,7 +5,7 @@ function steamrollArray(arr) {
     var newArr = [];
     //Iteramos entre cada elemento de arr
     for (let i = 0; i < arr.length; i++) {
-      //Determinamos si el elemento o subelemento es una matriz o no, en caso de no ser una matriz, simplemente se envia a la newArr. En caso de ser una matriz se concatena a la newArr para de esta manera eliminar los corchetes unir los elementos. Para esto se crea una variable que me señale todos aquellos subelementos de la matriz.
+      //Determinamos si el elemento o subelemento es una matriz o no, en caso de no ser una matriz, simplemente se envia a la newArr. En caso de ser una matriz se concatena a la newArr para de esta manera eliminar los corchetes y unir los elementos. Para esto se crea una variable que me señale todos aquellos subelementos de la matriz.
       if (Array.isArray(arr[i]) === false) {
         newArr.push(arr[i]);
       } else {
