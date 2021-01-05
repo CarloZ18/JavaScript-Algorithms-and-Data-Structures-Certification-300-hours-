@@ -12,4 +12,8 @@ function addTogether(a, b) {
   }
    
 // NOTA: entendi toda la logica, pero tengo una duda Jainer en la linea 10 que coloque (b) => sum(b) : sum(b); No termino de comprender a que se refiere esa parte, vi esa respuesta y la ajuste con mis argumentos y tal, porque me parecio que estaba chevere, pero esa parte no termino de comprenderla, plis, HELP. 
+<<<<<<< HEAD:Intermediate Algorithm Scripting/Arguments Optional.js
 // Yo asumo que al no tener definido el argumento b, en la funcion, esto lo que dice es que toma el proximo para ejecutar la suma, y lo coloca como argumento b, para remplezar ese espacio vacio.
+=======
+// Yo asumo que al no tener definido el argumento b, en la funcion, esto lo que dice es que toma el proximo para ejecutar la suma, y lo coloca como argumento b, para remplezar ese espacio vacio.
+>>>>>>> 650899187feac05e374180c9f29446b7f24ba7cc:Intermediate Algorithm Scripting/Arguments Optional
