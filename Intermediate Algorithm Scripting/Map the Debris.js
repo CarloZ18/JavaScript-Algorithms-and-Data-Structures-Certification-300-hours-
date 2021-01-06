@@ -26,3 +26,9 @@ function orbitalPeriod(arr) {
   }
   
   orbitalPeriod([{ name: "sputnik", avgAlt: 35873.5553 }]);
+
+  //Apunte: 
+  //Math.round()= redondear cifra
+  //Math.PI= radio de la circunsferencia de un circulo
+  //Math.sqrt()=Raiz de un número
+  //Math.pow(base, exponente)= exponente de un número          
